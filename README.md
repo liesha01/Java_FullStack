@@ -9,7 +9,7 @@ A production-ready microservices project with a React frontend and a Java 21 / S
 ### Frontend
 | Category | Technology |
 |----------|------------|
-| **Core** | React 18 + Vite 5 |
+| **Core** | React 18 + Vite 5 | 
 | **Routing** | React Router v6 |
 | **State** | TanStack Query v5 |
 | **Forms** | React Hook Form |
