@@ -4,7 +4,7 @@ $services = @(
     @{ Name = "order-service"; Port = 8082 },
     @{ Name = "notification-service"; Port = 8084 },
     @{ Name = "payment-service"; Port = 8085 },
-    @{ Name = "api-gateway"; Port = 8080 }
+    @{ Name = "api-gateway"; Port = 8080 } 
 )
 
 Write-Host "Starting all microservices sequentially with health checks..." -ForegroundColor Cyan
