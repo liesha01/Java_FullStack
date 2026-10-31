@@ -2,7 +2,7 @@ version: '3.9'
 
 # ══════════════════════════════════════════════════════════════
 # INFRA ONLY — Use this for local development when running
-# Spring Boot services directly from your IDE.
+# Spring Boot services directly from your IDE. 
 #   docker compose -f docker-compose-infra.yml up -d
 # ══════════════════════════════════════════════════════════════
 
