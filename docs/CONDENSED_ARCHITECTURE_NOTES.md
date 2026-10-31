@@ -3,7 +3,7 @@
 
 ---
 
-## 1. System Architecture
+## 1. System Architecture 
 
 **Stack:** React 19 + Vite client → Spring Cloud Gateway (:8080) → 5 Spring Boot 3.3 microservices (User :8081, Product :8083, Order :8082, Payment :8085, Notification :8084) → PostgreSQL 16, Redis 7.2, Kafka 3.8, Jaeger/OpenTelemetry tracing.
 
