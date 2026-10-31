@@ -3,7 +3,7 @@ $ports = 8080, 8081, 8082, 8083, 8084, 8085
 Write-Host "Stopping all microservices..." -ForegroundColor Cyan
 
 foreach ($port in $ports) {
-    # Find any process listening on the microservice ports
+    # Find any process listening on the microservice ports 
     $connections = Get-NetTCPConnection -LocalPort $port -State Listen -ErrorAction SilentlyContinue
     
     if ($connections) {
