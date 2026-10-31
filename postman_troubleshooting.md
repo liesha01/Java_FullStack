@@ -8,7 +8,7 @@ The gateway's `application.yml` declares:
 ```yaml
 jwt:
   secret: ${JWT_SECRET}   # ← NO default fallback!
-```
+``` 
 Every other service has a fallback:
 ```yaml
 jwt:
