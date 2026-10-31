@@ -4,7 +4,7 @@ WORKDIR /build
 RUN apk add --no-cache maven
 COPY . .
 RUN mvn package -pl order-service -am -DskipTests -q
-
+ 
 # ── Stage 2: Runtime ────────────────────────────────────────────
 FROM eclipse-temurin:21-jre-alpine AS runtime
 WORKDIR /app
