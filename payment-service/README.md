@@ -1,6 +1,6 @@
 # Payment Service (`payment-service`) · Java 21 Spring Boot Microservice
 
-An enterprise-grade, PCI-DSS and EMVCo compliant financial payment processing microservice built for the **Java 21 / Spring Boot 3.3.2 Full-Stack Microservices** workspace.
+An enterprise-grade, PCI-DSS and EMVCo compliant financial payment processing microservice built for the **Java 21 / Spring Boot 3.3.2 Full-Stack Microservices** workspace. 
 
 ---
 
