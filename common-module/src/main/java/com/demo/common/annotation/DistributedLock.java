@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  * Indicates that a distributed lock should be acquired before executing the method.
  */
 @Target(ElementType.METHOD)
-@Retention(RetentionPolicy.RUNTIME)
+@Retention(RetentionPolicy.RUNTIME)c
 public @interface DistributedLock {
 
     /**
