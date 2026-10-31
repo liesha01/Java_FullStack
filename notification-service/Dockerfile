@@ -6,7 +6,7 @@ COPY . .
 RUN mvn package -pl notification-service -am -DskipTests -q
 
 # ── Stage 2: Runtime ────────────────────────────────────────────
-FROM eclipse-temurin:21-jre-alpine AS runtime
+FROM eclipse-temurin:21-jre-alpine AS runtime 
 WORKDIR /app
 RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 USER appuser
