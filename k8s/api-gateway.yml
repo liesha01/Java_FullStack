@@ -5,7 +5,7 @@ kind: Deployment
 metadata:
   name: api-gateway
   namespace: microservices
-spec:
+spec: 
   replicas: 2
   selector:
     matchLabels:
