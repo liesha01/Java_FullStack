@@ -1,4 +1,4 @@
-package com.demo.user.config;
+package com.demo.user.config; 
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.cache.annotation.EnableCaching;
